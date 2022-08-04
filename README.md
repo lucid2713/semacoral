@@ -1,2 +1,0 @@
-# semacoral
-semacoral_project
