@@ -42,26 +42,36 @@
           <h2>Task2: 재료와 기법 정보에 새로운 가치 부여</h2>
           <hr><br>
 
-          <h3>&#x2713;서울시립미술관 소장품의 재료와 기법 데이터</h3>
-          <p>
-            "서울시립미술관이 소장한 작품 5654점을 살펴보세요."
+          <button type="button" class="collapsible">&#x2713;서울시립미술관 소장품의 재료와 기법 데이터</button>
+            <div class="content">
+             <p>
+               <a href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list" target="_blank">서울시립미술관 웹사이트</a>에는 서울시립미술관이 소장한 5654점(2022년 8월 기준)의 미술작품 정보가 공개 되어 있다.
+               ‘작가명’, ‘작품명’, 재료/기법’, ‘부문’, ‘제작연도’, ‘수집연도’, ‘기증여부’, ‘전시여부’ 라는 총 8개의 카테고리로 세분화하여 작품을 검색할 수 있으며, 이 중 ‘부문’, ‘제작연도’, ‘수집연도’, ‘기증여부’, ‘전시여부’ 총 5개의 카테고리는 각기 세부항목 카테고리로 나누어져 구조를 갖춘 정보체계를 이루고 있다.
+               ‘작가명’과 ‘작품명’은 하위항목 없이 검색창으로만 검색할 수 있는데, 이들이 예술 작품에서 가장 중요한 정보이자 또 각기 다른 고유한 값(이름)을 가진 정보이기에 하위목록을 나누는 검색 방식은 적절치 않을 수 있다고 짐작할 수 있다.
+               마지막으로 남는 것이 바로 ‘재료/기법’ 정보다. 언뜻 보기에는 충분히 카테고라이징 될 만하게 보이는 이 재료/기법 (그것도 재료와 기법이 합해져있다)란 역시 작가명이나 작품명처럼 검색창으로만 검색이 가능하다.
+               자칫 방문자는 재료/기법 검색란을 앞에 두고 길을 잃을 수 있지만 한편으로는 또 과연 이것이 일률적인 몇 가지 카테고리로 분류가능한 항목은 아닐 수 있다는 두 가지 생각이 든다.
+             </p><br>
+             <p>
+               서울시립미술관에서 발간한 <a href="https://sema.seoul.go.kr/kr/knowledge_research/book/detail?cid=100761517&bookkey=100761521&seoul_si0=&seoul_si1=&seoul_si2=&keyword=&q0=서울시립미술관+소장품+기술지침&q1=&q2=&aon1=&aon2=&kdc=&rf=&tf=&currentPage=1&sortkey=publisher_year&sortorder=desc&sManageCode=" target="_blank"><소장품 기술 지침></a> 책자에 따르면 소장품 정보 기술 체계에서는 재료/기법에 관하여 다음과 같은 방식으로 분류 및 기술되어 있다고 한다.<br><br>
+               “재료와 기법을 함께 기술하며, 너무 광범위하고 전문적인 사항들은 소장작가들의 자문을 받아 정리하였다. 평면(회화Ⅰ, 회화Ⅱ, 서예, 드로잉, 판화, 사진)작품은 바탕재료와 표현재료를 구분하여 기술하고, 입체(조각∙설치, 공예)작품은 주재료를 중심으로 기술하고, 영상(뉴미디어)작품은 재생 정보를 중심으로 기술한다. 단, 작가가 원하는 방식이 있다면 우선으로 반영하여 기술하고, 기술지침에 따라 생략된 세부적인 사항들은 소장품 담당자가 반드시 따로 기록하여 관리하기로 한다.”(p.5)<br><br>
+               재료와 기법에 관한 설명이 있지만 작가의 의사가 우선적으로 적용되고, 지침에 따라 분류할 수 없는 작업들, 즉 빈틈이 많아 보인다. 특히 뉴미디어 작업의 경우 분류 체계에서 명시하고 있는 작업 형태는 ‘영상'에만 초점이 맞춰져 있는데, 따라서 영상 외에 사운드, 인터랙티브 설치, 웹 작업 등 다양한 형태와 재료의 뉴미디어 작업들을 지침서에 따라서는 포괄하지 못하게 된다.
+             </p>
+            </div>
+          <br>
+          <button type="button" class="collapsible">&#x2713;비정형화된 데이터인 재료와 기법 정보를 처리해보기</button>
+            <div class="content">
+             <p>
 
+             </p>
+           </div>
+           <br>
+           <button type="button" class="collapsible">&#x2713;재료와 기법에 새로운 고유값 부여하기</button>
+             <div class="content">
+              <p>
 
-          </p><br>
-
-          <h3>&#x2713;비정형화된 데이터인 재료와 기법 정보를 처리해보기</h3>
-          <p>
-
-
-          </p><br>
-          <p>
-
-          </p><br>
-
-          <h3>&#x2713;재료와 기법에 새로운 고유값 부여하기</h3>
-          <p>
-
-          </p>
+              </p>
+            </div>
+            <br><br><br>
         </div>
       </div>
     </div>
@@ -2609,656 +2619,762 @@
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">퍼포먼스
         <span><img src="minDALL-E_img/0845.png" width="100%" title="퍼포먼스"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A0%90%ED%86%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">점토</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A0%90%ED%86%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">점토
+      <span><img src="minDALL-E_img/0846.png" width="100%" title="점토"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%97%90%EB%82%98%EB%A9%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">에나멜</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%97%90%EB%82%98%EB%A9%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">에나멜
+      <span><img src="minDALL-E_img/0847.png" width="100%" title="에나멜"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%81%AC%EB%A0%88%EC%9D%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">크레인</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%81%AC%EB%A0%88%EC%9D%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">크레인
+      <span><img src="minDALL-E_img/0848.png" width="100%" title="크레인"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9A%B0%EC%9C%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">우유</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9A%B0%EC%9C%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">우유
+      <span><img src="minDALL-E_img/0849.png" width="100%" title="우유"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%EC%97%90+%EC%A0%84%EC%82%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무에
-        전사</a>
+        전사<span><img src="minDALL-E_img/0850.png" width="100%" title="나무에 전사"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=1971%EA%B0%9C%EC%9D%98+%EC%95%84%ED%94%84%EC%A0%A4%EB%A6%AC%EC%95%84+%EB%82%98%EB%AC%B4+%EB%A7%89%EB%8C%80&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">1971개의
-        아프젤리아 나무 막대</a>
+        아프젤리아 나무 막대<span><img src="minDALL-E_img/0851.png" width="100%" title="1971개의 아프젤리아 나무 막대"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%98%A4%EC%9D%BC%EC%BB%AC%EB%9F%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">오일컬러</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%98%A4%EC%9D%BC%EC%BB%AC%EB%9F%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">오일컬러
+      <span><img src="minDALL-E_img/0852.png" width="100%" title="오일컬러"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%ED%95%A9%ED%8C%90%EC%97%90+%EC%95%84%ED%81%AC%EB%A6%B4%EB%A6%AD&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무합판에
-        아크릴릭</a>
+        아크릴릭<span><img src="minDALL-E_img/0853.png" width="100%" title="나무합판에 아크릴릭"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%ED%8C%A8%EB%84%90%EC%97%90+%EC%BB%AC%EB%9F%AC+%EC%B2%9C+%ED%85%8C%EC%9D%B4%ED%94%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무패널에
-        컬러 천 테이프</a>
+        컬러 천 테이프<span><img src="minDALL-E_img/0854.png" width="100%" title="나무패널에 컬러 천 테이프"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=UV+%EB%B0%94%EB%8B%88%EC%89%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">UV
-        바니쉬</a>
+        바니쉬<span><img src="minDALL-E_img/0855.png" width="100%" title="UV 바니쉬"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B0%81%ED%8C%8C%EC%9D%B4%ED%94%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">각파이프</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B0%81%ED%8C%8C%EC%9D%B4%ED%94%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">각파이프
+      <span><img src="minDALL-E_img/0856.png" width="100%" title="각파이프"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8C%A8%EB%84%90%EC%97%90+%EC%BB%AC%EB%9F%AC+%ED%85%8C%EC%9D%B4%ED%94%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">패널에
-        컬러 테이프</a>
+        컬러 테이프<span><img src="minDALL-E_img/0857.png" width="100%" title="패널에 컬러 테이프"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%EC%97%90+%EC%83%8C%EB%93%9C%EB%B8%94%EB%9E%98%EC%8A%A4%ED%8C%85+%EA%B8%B0%EB%B2%95&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무에
-        샌드블래스팅 기법</a>
+        샌드블래스팅 기법<span><img src="minDALL-E_img/0858.png" width="100%" title="나무에 샌드블래스팅 기법"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A2%85%EC%9D%B4%EC%97%90+%EB%AA%A9%ED%8C%90&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">종이에
-        목판</a>
+        목판<span><img src="minDALL-E_img/0859.png" width="100%" title="종이에 목판"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%90%EB%B9%84%EB%8B%9B+%EC%86%8D%EC%97%90+%EB%8F%84%EC%9E%90%EA%B8%B0+%EC%98%A4%EB%B8%8C%EC%A0%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캐비닛
-        속에 도자기 오브제</a>
+        속에 도자기 오브제<span><img src="minDALL-E_img/0860.png" width="100%" title="캐비닛 속에 도자기 오브제"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B2%BD+%EC%9C%84%EC%97%90+%ED%85%8D%EC%8A%A4%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">벽
-        위에 텍스트</a>
+        위에 텍스트<span><img src="minDALL-E_img/0861.png" width="100%" title="벽 위에 텍스트"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%95%84%ED%81%AC%EB%A6%B4%EA%B3%BC%EC%8A%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">아크릴과슈</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%95%84%ED%81%AC%EB%A6%B4%EA%B3%BC%EC%8A%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">아크릴과슈
+      <span><img src="minDALL-E_img/0862.png" width="100%" title="아크릴과슈"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%8B%A5%EC%A7%80%EC%97%90+%EC%B1%84%EC%83%89&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">닥지에
-        채색</a>
+        채색<span><img src="minDALL-E_img/0863.png" width="100%" title="닥지에 채색"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%ED%8C%A8%EB%84%90%EC%97%90+%EC%9D%B8%EA%B3%B5%EC%A7%84%EC%A3%BC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무패널에
-        인공진주</a>
+        인공진주<span><img src="minDALL-E_img/0864.png" width="100%" title="나무패널에 인공진주"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%86%94%ED%81%AC+%EC%97%B0%EA%B5%AC%EC%86%8C+%EC%84%A4%EA%B3%84%EB%8F%84%EB%A9%B4%EC%97%90+%EC%BB%B4%ED%93%A8%ED%84%B0+%EB%93%9C%EB%A1%9C%EC%9E%89&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">솔크
-        연구소 설계도면에 컴퓨터 드로잉</a>
+        연구소 설계도면에 컴퓨터 드로잉<span><img src="minDALL-E_img/0865.png" width="100%" title="솔크 연구소 설계도면에 컴퓨터 드로잉"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%9D%91%EB%8B%A8%2Fjoint%EA%B8%B0%EB%B2%95&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">흑단/joint기법</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%9D%91%EB%8B%A8%2Fjoint%EA%B8%B0%EB%B2%95&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">흑단/joint기법
+      <span><img src="minDALL-E_img/0866.png" width="100%" title="흑단/joint기법"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%A0%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">철)</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%A0%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">철)
+      <span><img src="minDALL-E_img/0867.png" width="100%" title="철)"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=7%EA%B0%9C%EC%9D%98+%EC%95%BC%EA%B5%AC%EB%B0%A9%EB%A7%9D%EC%9D%B4%EC%97%90+%EB%9D%BD%EC%B9%B4%EC%8A%A4%ED%94%84%EB%A0%88%EC%9D%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">7개의
-        야구방망이에 락카스프레이</a>
+        야구방망이에 락카스프레이<span><img src="minDALL-E_img/0868.png" width="100%" title="7개의 야구방망이에 락카스프레이"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B8%80%EB%A6%AC%EC%84%B8%EB%A6%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">글리세린</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B8%80%EB%A6%AC%EC%84%B8%EB%A6%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">글리세린
+      <span><img src="minDALL-E_img/0869.png" width="100%" title="글리세린"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%9D%91%ED%86%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">흑토</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%9D%91%ED%86%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">흑토
+      <span><img src="minDALL-E_img/0870.png" width="100%" title="흑토"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%98%BC%ED%95%A9%EC%95%88%EB%A3%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">혼합안료</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%98%BC%ED%95%A9%EC%95%88%EB%A3%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">혼합안료
+      <span><img src="minDALL-E_img/0871.png" width="100%" title="혼합안료"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%84%9C%EC%98%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">서예</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%84%9C%EC%98%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">서예
+      <span><img src="minDALL-E_img/0872.png" width="100%" title="서예"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BD%94%EB%A5%B4%ED%85%90%EC%8A%A4%ED%8B%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">코르텐스틸</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BD%94%EB%A5%B4%ED%85%90%EC%8A%A4%ED%8B%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">코르텐스틸
+      <span><img src="minDALL-E_img/0873.png" width="100%" title="코르텐스틸"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%81%B4%EB%A6%AC%EC%96%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">클리어</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%81%B4%EB%A6%AC%EC%96%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">클리어
+      <span><img src="minDALL-E_img/0874.png" width="100%" title="클리어"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%A8%EC%8B%9C%EC%97%90+%EC%88%98%EB%AC%B5%EB%8B%B4%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">모시에
-        수묵담채</a>
+        수묵담채<span><img src="minDALL-E_img/0875.png" width="100%" title="모시에 수묵담채"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%99%95%EC%84%B1%EA%B8%B0+%EC%8A%A4%ED%94%BC%EC%BB%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">확성기
-        스피커</a>
+        스피커<span><img src="minDALL-E_img/0876.png" width="100%" title="확성기 스피커"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%A9%ED%83%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">목탄</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%A9%ED%83%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">목탄
+      <span><img src="minDALL-E_img/0877.png" width="100%" title="목탄"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A7%88%EB%8C%80%EC%97%90+%EC%9C%A0%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">마대에
-        유채</a>
+        유채<span><img src="minDALL-E_img/0878.png" width="100%" title="마대에 유채"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9E%91%ED%92%88+%EB%85%B8%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">작품
-        노트</a>
+        노트<span><img src="minDALL-E_img/0879.png" width="100%" title="작품 노트"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%82%AC%EC%9D%B8%ED%8E%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">사인펜</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%82%AC%EC%9D%B8%ED%8E%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">사인펜
+      <span><img src="minDALL-E_img/0880.png" width="100%" title="사인펜"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A7%88%EC%9D%B4%ED%81%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">마이크</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A7%88%EC%9D%B4%ED%81%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">마이크
+      <span><img src="minDALL-E_img/0881.png" width="100%" title="마이크"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%83%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">크리스탈</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%83%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">크리스탈
+      <span><img src="minDALL-E_img/0882.png" width="100%" title="크리스탈"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B6%80%EB%8C%80%EC%A2%85%EC%9D%B4%EC%97%90+%EC%95%84%ED%81%AC%EB%A6%B4%EB%A6%AD&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">부대종이에
-        아크릴릭</a>
+        아크릴릭<span><img src="minDALL-E_img/0883.png" width="100%" title="부대종이에 아크릴릭"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8E%98%EC%9D%B8%ED%8A%B8+%EC%B9%A0%ED%95%9C+%EB%AA%A9%EC%9E%AC+%EB%B3%91%ED%92%8D&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">페인트
-        칠한 목재 병풍</a>
+        칠한 목재 병풍<span><img src="minDALL-E_img/0884.png" width="100%" title="페인트 칠한 목재 병풍"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4%EC%97%90+%EC%95%84%ED%81%AC%EB%A6%B4%EB%A6%AD+%EB%A9%94%EB%94%94%EC%9B%80&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스에
-        아크릴릭 메디움</a>
+        아크릴릭 메디움<span><img src="minDALL-E_img/0885.png" width="100%" title="캔버스에 아크릴릭 메디움"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스
+      <span><img src="minDALL-E_img/0886.png" width="100%" title="캔버스"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B0%95%ED%99%94%EC%84%AC%EC%9C%A0+%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">강화섬유
-        플라스틱</a>
+        플라스틱<span><img src="minDALL-E_img/0887.png" width="100%" title="강화섬유 플라스틱"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A2%85%EC%9D%B4%EC%97%90+%EB%A8%B9+%EB%93%9C%EB%A1%9C%EC%9E%89&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">종이에
-        먹 드로잉</a>
+        먹 드로잉<span><img src="minDALL-E_img/0888.png" width="100%" title="종이에 먹 드로잉"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BB%AC%EB%9F%AC+%EC%8B%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">컬러
-        실</a>
+        실<span><img src="minDALL-E_img/0889.png" width="100%" title="컬러 실"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4%EC%97%90+%ED%94%84%EB%A6%B0%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스에
-        프린트</a>
+        프린트<span><img src="minDALL-E_img/0890.png" width="100%" title="캔버스에 프린트"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B9%BC%EB%9D%BC+%EC%82%AC%EC%A7%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">칼라
-        사진</a>
+        사진<span><img src="minDALL-E_img/0891.png" width="100%" title="칼라 사진"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%A0%EC%9D%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">날인</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%A0%EC%9D%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">날인
+      <span><img src="minDALL-E_img/0892.png" width="100%" title="날인"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9D%B4%ED%83%9C%EB%A6%AC+%EB%8C%80%EB%A6%AC%EC%84%9D%2F%EC%A1%B0%EA%B0%81&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">이태리
-        대리석/조각</a>
+        대리석/조각<span><img src="minDALL-E_img/0893.png" width="100%" title="이태리 대리석/조각"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B3%BC%EC%8A%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">과슈</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B3%BC%EC%8A%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">과슈
+      <span><img src="minDALL-E_img/0894.png" width="100%" title="과슈"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%88%98%EC%A0%9C+%ED%95%9C%EC%A7%80%EC%97%90+%EC%88%98%EB%AC%B5&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">수제
-        한지에 수묵</a>
+        한지에 수묵<span><img src="minDALL-E_img/0895.png" width="100%" title="수제 한지에 수묵"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8C%90%ED%99%94%EC%A7%80%EC%97%90+%EC%8B%A4%ED%81%AC%EC%8A%A4%ED%81%AC%EB%A6%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">판화지에
-        실크스크린</a>
+        실크스크린<span><img src="minDALL-E_img/0896.png" width="100%" title="판화지에 실크스크린"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A1%9C%EB%93%9C%EC%85%80+%ED%94%84%EB%A6%B0%ED%84%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">로드셀
-        프린터</a>
+        프린터<span><img src="minDALL-E_img/0897.png" width="100%" title="로드셀 프린터"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8E%A0%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">펠트</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8E%A0%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">펠트
+      <span><img src="minDALL-E_img/0898.png" width="100%" title="펠트"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B1%B0%EC%9A%B8.+%EB%A7%88%EC%9D%B4%ED%81%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">거울.
-        마이크</a>
+        마이크<span><img src="minDALL-E_img/0899.png" width="100%" title="거울. 마이크"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8C%A8%EB%84%90%EC%97%90+%EC%98%A4%EC%9D%BC%EC%8A%A4%ED%8B%B1&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">패널에
-        오일스틱</a>
+        오일스틱<span><img src="minDALL-E_img/0900.png" width="100%" title="패널에 오일스틱"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9E%A5%EC%A7%80%EC%97%90+%ED%98%BC%ED%95%A9%EB%A7%A4%EC%B2%B4%28%EA%B8%88%EB%B6%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">장지에
-        혼합매체(금분</a>
+        혼합매체(금분<span><img src="minDALL-E_img/0901.png" width="100%" title="장지에 혼합매체(금분"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%A0%EB%8B%A8%EC%A1%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">철단조</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%A0%EB%8B%A8%EC%A1%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">철단조
+      <span><img src="minDALL-E_img/0902.png" width="100%" title="철단조"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B8%8C%EB%A1%A0%EC%A6%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">브론즈</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B8%8C%EB%A1%A0%EC%A6%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">브론즈
+      <span><img src="minDALL-E_img/0903.png" width="100%" title="브론즈"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BD%94%EB%A5%B4%EB%8D%B4+%EC%9E%90%EC%BC%93&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">코르덴
-        자켓</a>
+        자켓<span><img src="minDALL-E_img/0904.png" width="100%" title="코르덴 자켓"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4%EC%97%90+%EC%B2%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스에
-        천</a>
+        천<span><img src="minDALL-E_img/0905.png" width="100%" title="캔버스에 천"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%85%B8%EB%81%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">노끈</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%85%B8%EB%81%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">노끈
+      <span><img src="minDALL-E_img/0906.png" width="100%" title="노끈"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A7%88%ED%8F%AC%EC%97%90+%EC%9C%A0%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">마포에
-        유채</a>
+        유채<span><img src="minDALL-E_img/0907.png" width="100%" title="마포에 유채"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BD%98%ED%85%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">콘테</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BD%98%ED%85%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">콘테
+      <span><img src="minDALL-E_img/0908.png" width="100%" title="콘테"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%9C%EC%97%90+%EC%95%84%ED%81%AC%EB%A6%B4%EB%A6%AD+%EA%B3%BC%EC%8A%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">천에
-        아크릴릭 과슈</a>
+        아크릴릭 과슈<span><img src="minDALL-E_img/0909.png" width="100%" title="천에 아크릴릭 과슈"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4%EC%97%90+%EC%95%88%EB%A3%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스에
-        안료</a>
+        안료<span><img src="minDALL-E_img/0910.png" width="100%" title="캔버스에 안료"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%94%84%EB%A0%89%EC%8A%A4%ED%8C%90%EC%97%90+%ED%9D%A1%EC%B0%A9%ED%8F%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">프렉스판에
-        흡착포</a>
+        흡착포<span><img src="minDALL-E_img/0911.png" width="100%" title="프렉스판에 흡착포"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B2%80%EC%9D%80%EC%83%89%ED%99%94%EA%B0%95%EC%95%94%28%EB%B6%80%EB%B6%84+%EB%A7%88%EA%B4%91%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">검은색화강암(부분
-        마광)</a>
+        마광)<span><img src="minDALL-E_img/0912.png" width="100%" title="검은색화강암(부분 마광)"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4+%EC%B2%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스
-        천</a>
+        천<span><img src="minDALL-E_img/0913.png" width="100%" title="캔버스 천"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%99%A9%EB%93%B1%EC%84%9D&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">황등석</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%99%A9%EB%93%B1%EC%84%9D&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">황등석
+      <span><img src="minDALL-E_img/0914.png" width="100%" title="황등석"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A7%84%EC%97%B4%EC%9A%A9+%EC%9C%A0%EB%A6%AC+%ED%85%8C%EC%9D%B4%EB%B8%94%EC%97%90+22%EA%B0%9C%EC%9D%98+%EA%B0%90%EB%A7%88%EC%84%A0+%EC%82%AC%EC%A7%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">진열용
-        유리 테이블에 22개의 감마선 사진</a>
+        유리 테이블에 22개의 감마선 사진<span><img src="minDALL-E_img/0915.png" width="100%" title="진열용 유리 테이블에 22개의 감마선 사진"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B0%80%EC%A3%BD%EC%97%90+%ED%98%BC%ED%95%A9%EB%A7%A4%EC%B2%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">가죽에
-        혼합매체</a>
+        혼합매체<span><img src="minDALL-E_img/0916.png" width="100%" title="가죽에 혼합매체"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%99%94%ED%95%99%EB%B0%A9%EB%B6%80%EC%B2%98%EB%A6%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">화학방부처리</a>
-      <a class="popup" href="">흑백·컬러</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%99%94%ED%95%99%EB%B0%A9%EB%B6%80%EC%B2%98%EB%A6%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">화학방부처리
+      <span><img src="minDALL-E_img/0917.png" width="100%" title="화학방부처리"></span></a>
+      <a class="popup" href="">흑백·컬러<span><img src="minDALL-E_img/0918.png" width="100%" title="흑백·컬러"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%A9%ED%8C%90%28%EB%84%88%EB%8F%84%EB%B0%A4%EB%82%98%EB%AC%B4%29%EC%97%90+%EC%84%9D%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">목판(너도밤나무)에
-        석채</a>
+        석채<span><img src="minDALL-E_img/0919.png" width="100%" title="목판(너도밤나무)에 석채"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8A%A4%ED%85%8C%EC%9D%B8%EB%A6%AC%EC%8A%A4%EC%8A%A4%ED%8B%B8%EC%97%90+%EC%9A%B0%EB%A0%88%ED%83%84+%EB%8F%84%EC%83%89&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">스테인리스스틸에
-        우레탄 도색</a>
+        우레탄 도색<span><img src="minDALL-E_img/0920.png" width="100%" title="스테인리스스틸에 우레탄 도색"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A2%85%EC%9D%B4%EB%B6%80%EC%A1%B0%EC%97%90+%EC%B1%84%EC%83%89&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">종이부조에
-        채색</a>
+        채색<span><img src="minDALL-E_img/0921.png" width="100%" title="종이부조에 채색"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=24K+%EA%B8%88%EB%B0%95&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">24K
-        금박</a>
+        금박<span><img src="minDALL-E_img/0922.png" width="100%" title="24K 금박"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%97%90%ED%8F%AD%EC%8B%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">에폭시</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%97%90%ED%8F%AD%EC%8B%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">에폭시
+      <span><img src="minDALL-E_img/0923.png" width="100%" title="에폭시"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%99%94%EC%84%A0%EC%A7%80%EC%97%90+%EC%88%98%EB%AC%B5%EB%8B%B4%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">화선지에
-        수묵담채</a>
+        수묵담채<span><img src="minDALL-E_img/0924.png" width="100%" title="화선지에 수묵담채"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BD%9C%EB%9D%BC%EC%A3%BC%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">콜라주)</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BD%9C%EB%9D%BC%EC%A3%BC%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">콜라주)
+      <span><img src="minDALL-E_img/0925.png" width="100%" title="콜라주)"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=Computer+graphic&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">Computer
-        graphic</a>
+        graphic<span><img src="minDALL-E_img/0926.png" width="100%" title="Computer graphic"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=Canvas-Relief&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">Canvas-Relief</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=Canvas-Relief&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">Canvas-Relief
+      <span><img src="minDALL-E_img/0927.png" width="100%" title="Canvas-Relief"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B9%84%EB%8B%A8%EC%97%90+%EA%B4%91%EB%AC%BC+%EC%95%88%EB%A3%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">비단에
-        광물 안료</a>
+        광물 안료<span><img src="minDALL-E_img/0928.png" width="100%" title="비단에 광물 안료"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%A0%EB%B0%9C%EA%B9%94%EC%B0%BD&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">신발깔창</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%A0%EB%B0%9C%EA%B9%94%EC%B0%BD&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">신발깔창
+      <span><img src="minDALL-E_img/0929.png" width="100%" title="신발깔창"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%95%8C%EB%A3%A8%EB%AF%B8%EB%8A%84+%EB%B4%89&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">알루미늄
-        봉</a>
+        봉<span><img src="minDALL-E_img/0930.png" width="100%" title="알루미늄 봉"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B3%B5%EA%B8%B0%EC%95%95%EC%B6%95%EA%B8%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">공기압축기</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B3%B5%EA%B8%B0%EC%95%95%EC%B6%95%EA%B8%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">공기압축기
+      <span><img src="minDALL-E_img/0931.png" width="100%" title="공기압축기"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8A%A4%EC%BA%94%ED%95%9C+%EC%8B%A0%EB%AC%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">스캔한
-        신문</a>
+        신문<span><img src="minDALL-E_img/0932.png" width="100%" title="스캔한 신문"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B2%BD%EC%A7%80%EC%97%90+%ED%98%BC%ED%95%A9%EB%A7%A4%EC%B2%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">벽지에
-        혼합매체</a>
+        혼합매체<span><img src="minDALL-E_img/0933.png" width="100%" title="벽지에 혼합매체"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%88%98%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">수채</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%88%98%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">수채
+      <span><img src="minDALL-E_img/0934.png" width="100%" title="수채"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9C%A0%EB%A6%AC%EC%97%90+%ED%98%BC%ED%95%A9%EB%A7%A4%EC%B2%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">유리에
-        혼합매체</a>
+        혼합매체<span><img src="minDALL-E_img/0935.png" width="100%" title="유리에 혼합매체"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%93%9C%EB%A1%9C%EC%9E%89+%EC%9E%89%ED%81%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">드로잉
-        잉크</a>
+        잉크<span><img src="minDALL-E_img/0936.png" width="100%" title="드로잉 잉크"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%A9%EC%84%B1%EC%88%98%EC%A7%80%28%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">합성수지(플라스틱)</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%A9%EC%84%B1%EC%88%98%EC%A7%80%28%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">합성수지(플라스틱)
+      <span><img src="minDALL-E_img/0937.png" width="100%" title="합성수지(플라스틱)"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A7%88%EC%97%90+%EC%88%98%EB%AC%B5&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">마에
-        수묵</a>
+        수묵<span><img src="minDALL-E_img/0938.png" width="100%" title="마에 수묵"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9C%A0%EB%A6%AC+%EA%B5%AC%EC%A1%B0%EB%AC%BC%EC%97%90+%EC%98%81%ED%99%94%ED%95%84%EB%A6%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">유리
-        구조물에 영화필름</a>
+        구조물에 영화필름<span><img src="minDALL-E_img/0939.png" width="100%" title="유리 구조물에 영화필름"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%BD%83%EB%8B%A4%EB%B0%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">꽃다발</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%BD%83%EB%8B%A4%EB%B0%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">꽃다발
+      <span><img src="minDALL-E_img/0940.png" width="100%" title="꽃다발"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9C%A0%EC%84%B1%EC%9E%89%ED%81%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">유성잉크</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9C%A0%EC%84%B1%EC%9E%89%ED%81%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">유성잉크
+      <span><img src="minDALL-E_img/0941.png" width="100%" title="유성잉크"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%A9%EC%84%B1%EC%88%98%EC%A7%80%28%ED%8F%B4%EB%A6%AC%EC%97%90%EC%8A%A4%ED%85%8C%EB%A5%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">합성수지(폴리에스테르</a>
-      <a class="popup" href="">비디오 & 컴퓨터 그래픽스</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%A9%EC%84%B1%EC%88%98%EC%A7%80%28%ED%8F%B4%EB%A6%AC%EC%97%90%EC%8A%A4%ED%85%8C%EB%A5%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">합성수지(폴리에스테르
+      <span><img src="minDALL-E_img/0942.png" width="100%" title="합성수지(폴리에스테르"></span></a>
+      <a class="popup" href="">비디오 & 컴퓨터 그래픽스<span><img src="minDALL-E_img/0943.png" width="100%" title="비디오 & 컴퓨터 그래픽스"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A0%88%EC%9D%B4%EC%A0%80+%EC%BB%B7%ED%8C%85&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">레이저
-        컷팅</a>
+        컷팅<span><img src="minDALL-E_img/0944.png" width="100%" title="레이저 컷팅"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%94%A4%EB%A8%B8+%EB%9D%BC%EC%9D%B4%ED%8C%85+%EC%84%A4%EC%B9%98&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">딤머
-        라이팅 설치</a>
+        라이팅 설치<span><img src="minDALL-E_img/0945.png" width="100%" title="딤머 라이팅 설치"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B6%84%ED%95%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">분필</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B6%84%ED%95%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">분필
+      <span><img src="minDALL-E_img/0946.png" width="100%" title="분필"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%94%94%EC%A7%80%ED%84%B8+%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B2%8C+%ED%94%BC%ED%81%AC%EB%A8%BC%ED%8A%B8+%ED%94%84%EB%A6%B0%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">디지털
-        아카이벌 피크먼트 프린트</a>
+        아카이벌 피크먼트 프린트<span><img src="minDALL-E_img/0947.png" width="100%" title="디지털 아카이벌 피크먼트 프린트"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B5%AC%EC%95%84%EC%8A%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">구아슈</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B5%AC%EC%95%84%EC%8A%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">구아슈
+      <span><img src="minDALL-E_img/0948.png" width="100%" title="구아슈"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9E%A5%EC%A7%80%EC%97%90+%EC%84%9D%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">장지에
-        석채</a>
+        석채<span><img src="minDALL-E_img/0949.png" width="100%" title="장지에 석채"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A0%88%EC%A7%84+%EC%98%A4%EB%B8%8C%EC%A0%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">레진
-        오브제</a>
+        오브제<span><img src="minDALL-E_img/0950.png" width="100%" title="레진 오브제"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EA%B8%B0%EB%A1%9D+%EC%98%81%EC%83%81%3B+3%EC%B1%84%EB%84%90+%EB%B9%84%EB%94%94%EC%98%A4%28HD%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">퍼포먼스
-        기록 영상; 3채널 비디오(HD)</a>
-      <a class="popup" href="">Ink & Embossed work on Stainless steel</a>
+        기록 영상; 3채널 비디오(HD)<span><img src="minDALL-E_img/0951.png" width="100%" title="퍼포먼스 기록 영상; 3채널 비디오(HD)"></span></a>
+      <a class="popup" href="">Ink & Embossed work on Stainless steel<span><img src="minDALL-E_img/0952.png" width="100%" title="Ink & Embossed work on Stainless steel"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%A8%EB%8B%88%ED%84%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">모니터</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%A8%EB%8B%88%ED%84%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">모니터
+      <span><img src="minDALL-E_img/0953.png" width="100%" title="모니터"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%86%90%EB%B0%94%EB%8A%90%EC%A7%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">손바느질</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%86%90%EB%B0%94%EB%8A%90%EC%A7%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">손바느질
+      <span><img src="minDALL-E_img/0954.png" width="100%" title="손바느질"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=Ink+and+watercolor&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">Ink
-        and watercolor</a>
+        and watercolor<span><img src="minDALL-E_img/0955.png" width="100%" title="Ink and watercolor"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=6%EC%B1%84%EB%84%90+%EC%82%AC%EC%9A%B4%EB%93%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">6채널
-        사운드</a>
+        사운드<span><img src="minDALL-E_img/0956.png" width="100%" title="6채널 사운드"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=acrylic+on+wood&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">acrylic
-        on wood</a>
+        on wood<span><img src="minDALL-E_img/0957.png" width="100%" title="acrylic on wood"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B9%B4%EC%98%A4%EB%94%94%EC%98%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">카오디오</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B9%B4%EC%98%A4%EB%94%94%EC%98%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">카오디오
+      <span><img src="minDALL-E_img/0958.png" width="100%" title="카오디오"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A2%85%EC%9D%B4%EC%97%90+%EA%BC%B4%EB%9D%BC%EC%A5%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">종이에
-        꼴라쥬</a>
+        꼴라쥬<span><img src="minDALL-E_img/0959.png" width="100%" title="종이에 꼴라쥬"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AC%BC%EB%A0%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">물레</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AC%BC%EB%A0%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">물레
+      <span><img src="minDALL-E_img/0960.png" width="100%" title="물레"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9C%A0%EC%A0%9C%EB%A9%B4%EC%97%90+%EB%82%98%EC%9D%B4%ED%95%91&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">유제면에
-        나이핑</a>
+        나이핑<span><img src="minDALL-E_img/0961.png" width="100%" title="유제면에 나이핑"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%84%9D%EA%B3%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">석고</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%84%9D%EA%B3%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">석고
+      <span><img src="minDALL-E_img/0962.png" width="100%" title="석고"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%83%9C%EC%9A%B4+%ED%95%9C%EC%A7%80%EC%97%90+%ED%98%BC%ED%95%A9%EB%A7%A4%EC%B2%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">태운
-        한지에 혼합매체</a>
+        한지에 혼합매체<span><img src="minDALL-E_img/0963.png" width="100%" title="태운 한지에 혼합매체"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9E%89%ED%81%AC%EC%A0%AF+%ED%94%84%EB%A6%B0%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">잉크젯
-        프린트</a>
+        프린트<span><img src="minDALL-E_img/0964.png" width="100%" title="잉크젯 프린트"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%95%8C%EB%A3%A8%EB%AF%B8%EB%8A%84+%EB%A0%88%EC%9D%B4%EC%A0%80+%EC%BB%A4%ED%8C%85&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">알루미늄
-        레이저 커팅</a>
+        레이저 커팅<span><img src="minDALL-E_img/0965.png" width="100%" title="알루미늄 레이저 커팅"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%83%89%EC%9C%A0%28%EB%AC%BC%EB%A0%88%EC%84%B1%ED%98%95%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">색유(물레성형)</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%83%89%EC%9C%A0%28%EB%AC%BC%EB%A0%88%EC%84%B1%ED%98%95%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">색유(물레성형)
+      <span><img src="minDALL-E_img/0966.png" width="100%" title="색유(물레성형)"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%A0+%EC%9A%A9%EC%A0%91&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">철
-        용접</a>
+        용접<span><img src="minDALL-E_img/0967.png" width="100%" title="철 용접"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%EC%95%A1%EC%9E%90%ED%8B%80+218%EA%B0%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무액자틀
-        218개</a>
+        218개<span><img src="minDALL-E_img/0968.png" width="100%" title="나무액자틀 218개"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A2%85%EC%9D%B4%EC%97%90+%ED%98%BC%ED%95%A9%EB%A7%A4%EC%B2%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">종이에
-        혼합매체</a>
+        혼합매체<span><img src="minDALL-E_img/0969.png" width="100%" title="종이에 혼합매체"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B3%BC%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">볼트</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B3%BC%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">볼트
+      <span><img src="minDALL-E_img/0970.png" width="100%" title="볼트"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%9C%ED%8A%B8%EC%A7%80+%EC%9D%B8%EC%87%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">시트지
-        인쇄</a>
+        인쇄<span><img src="minDALL-E_img/0971.png" width="100%" title="시트지 인쇄"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4%EC%97%90+%EB%AA%A8%EB%8D%B8%EB%A7%81&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스에
-        모델링</a>
+        모델링<span><img src="minDALL-E_img/0972.png" width="100%" title="캔버스에 모델링"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%98%BC%ED%95%A9%EC%9E%AC%EB%A3%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">혼합재료</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%98%BC%ED%95%A9%EC%9E%AC%EB%A3%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">혼합재료
+      <span><img src="minDALL-E_img/0973.png" width="100%" title="혼합재료"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=digital+camera&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">digital
-        camera</a>
+        camera<span><img src="minDALL-E_img/0974.png" width="100%" title="digital camera"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%95%84%ED%81%AC%EB%A6%B4%EB%A6%AD+%EA%B1%B0%EC%9A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">아크릴릭
-        거울</a>
+        거울<span><img src="minDALL-E_img/0975.png" width="100%" title="아크릴릭 거울"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9E%A5%EC%A7%80%EC%97%90+%ED%98%BC%ED%95%A9%EB%A7%A4%EC%B2%B4%28%EB%A8%B9&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">장지에
-        혼합매체(먹</a>
+        혼합매체(먹<span><img src="minDALL-E_img/0976.png" width="100%" title="장지에 혼합매체(먹"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%A0+%EC%9D%98%EC%9E%90&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">철
-        의자</a>
+        의자<span><img src="minDALL-E_img/0977.png" width="100%" title="철 의자"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A2%85%EC%9D%B4%EC%97%90+%EC%98%A4%ED%94%84%EC%85%8B%EC%9D%B8%EC%87%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">종이에
-        오프셋인쇄</a>
+        오프셋인쇄<span><img src="minDALL-E_img/0978.png" width="100%" title="종이에 오프셋인쇄"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1+%EC%95%BD%EC%88%98%ED%86%B5&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">플라스틱
-        약수통</a>
+        약수통<span><img src="minDALL-E_img/0979.png" width="100%" title="플라스틱 약수통"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%83%80%EB%A0%B4%ED%8C%90%EC%83%81%EA%B8%B0%EB%B2%95&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">타렴판상기법</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%83%80%EB%A0%B4%ED%8C%90%EC%83%81%EA%B8%B0%EB%B2%95&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">타렴판상기법
+      <span><img src="minDALL-E_img/0980.png" width="100%" title="타렴판상기법"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%9C%EC%A7%80%EC%97%90+%EC%88%AF&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">한지에
-        숯</a>
+        숯<span><img src="minDALL-E_img/0981.png" width="100%" title="한지에 숯"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%96%91%ED%82%A4+%EC%8A%A4%ED%83%80%EB%94%94%EC%9B%80+%EB%AA%A8%ED%98%95%28%ED%95%A9%EC%84%B1%EC%88%98%EC%A7%80%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">양키
-        스타디움 모형(합성수지)</a>
+        스타디움 모형(합성수지)<span><img src="minDALL-E_img/0982.png" width="100%" title="양키 스타디움 모형(합성수지)"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B6%80%EB%8F%99%EC%95%A1&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">부동액</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B6%80%EB%8F%99%EC%95%A1&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">부동액
+      <span><img src="minDALL-E_img/0983.png" width="100%" title="부동액"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%9E%98%EB%AF%B8%EB%84%A4%EC%9D%B4%ED%8C%85+%EC%A2%85%EC%9D%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">래미네이팅
-        종이</a>
+        종이<span><img src="minDALL-E_img/0984.png" width="100%" title="래미네이팅 종이"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=2%EC%B1%84%EB%84%90+%EC%82%AC%EC%9A%B4%EB%93%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">2채널
-        사운드</a>
+        사운드<span><img src="minDALL-E_img/0985.png" width="100%" title="2채널 사운드"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=color+silver+print&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">color
-        silver print</a>
+        silver print<span><img src="minDALL-E_img/0986.png" width="100%" title="color silver print"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%A9%EC%84%B1%EC%88%98%EC%A7%80+%EB%A7%88%EB%84%A4%ED%82%B9%EC%97%90+%EC%8A%A4%ED%8C%BD%EA%B8%80&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">합성수지
-        마네킹에 스팽글</a>
+        마네킹에 스팽글<span><img src="minDALL-E_img/0987.png" width="100%" title="합성수지 마네킹에 스팽글"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%94%84%EB%A6%B0%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">프린트</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%94%84%EB%A6%B0%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">프린트
+      <span><img src="minDALL-E_img/0988.png" width="100%" title="프린트"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%96%91%EB%8F%99%EC%9D%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">양동이</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%96%91%EB%8F%99%EC%9D%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">양동이
+      <span><img src="minDALL-E_img/0989.png" width="100%" title="양동이"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EC%88%98%ED%96%89%EB%AC%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">퍼포먼스
-        수행문</a>
+        수행문<span><img src="minDALL-E_img/0990.png" width="100%" title="퍼포먼스 수행문"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%88%9C%EC%A7%80%EC%97%90+%EB%A8%B9&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">순지에
-        먹</a>
+        먹<span><img src="minDALL-E_img/0991.png" width="100%" title="순지에 먹"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BB%AC%EB%9F%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">컬러</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BB%AC%EB%9F%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">컬러
+      <span><img src="minDALL-E_img/0992.png" width="100%" title="컬러"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%8B%B4%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">담채</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%8B%B4%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">담채
+      <span><img src="minDALL-E_img/0993.png" width="100%" title="담채"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%98%9B+%EC%97%AC%EC%9D%B8+%EC%86%90%EC%88%98%EA%B1%B4%EC%97%90+%EC%9E%90%EC%88%98%EC%8B%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">옛
-        여인 손수건에 자수실</a>
+        여인 손수건에 자수실<span><img src="minDALL-E_img/0994.png" width="100%" title="옛 여인 손수건에 자수실"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=Digital+C-Print+%28e.n.1%2F15%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">Digital
-        C-Print (e.n.1/15)</a>
+        C-Print (e.n.1/15)<span><img src="minDALL-E_img/0995.png" width="100%" title="Digital C-Print (e.n.1 15)"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%9D%BC%EB%94%94%EC%98%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">라디오</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%9D%BC%EB%94%94%EC%98%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">라디오
+      <span><img src="minDALL-E_img/0996.png" width="100%" title="라디오"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%9D%ED%83%81&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">식탁</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%9D%ED%83%81&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">식탁
+      <span><img src="minDALL-E_img/0997.png" width="100%" title="식탁"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%A0%EC%97%90+%EC%9A%B0%EB%A0%88%ED%83%84+%ED%8E%98%EC%9D%B8%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">철에
-        우레탄 페인트</a>
+        우레탄 페인트<span><img src="minDALL-E_img/0998.png" width="100%" title="철에 우레탄 페인트"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%9C%EB%B0%94%ED%88%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">시바툴</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%9C%EB%B0%94%ED%88%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">시바툴
+      <span><img src="minDALL-E_img/0999.png" width="100%" title="시바툴"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%94%94%EC%A7%80%ED%84%B8-C+%ED%94%84%EB%A6%B0%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">디지털-C
-        프린트</a>
+        프린트<span><img src="minDALL-E_img/1000.png" width="100%" title="디지털-C 프린트"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%8F%84%EB%A1%9D&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">도록</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%8F%84%EB%A1%9D&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">도록
+      <span><img src="minDALL-E_img/1001.png" width="100%" title="도록"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%9D%BC%EC%9D%B4%ED%8A%B8%EC%A0%AF+%ED%94%84%EB%A6%B0%ED%8A%B8%EC%97%90+%EC%95%A1%EC%9E%90&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">라이트젯
-        프린트에 액자</a>
+        프린트에 액자<span><img src="minDALL-E_img/1002.png" width="100%" title="라이트젯 프린트에 액자"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B4%91%EB%AA%A9%EC%97%90+%EC%88%98%EB%AC%B5&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">광목에
-        수묵</a>
+        수묵<span><img src="minDALL-E_img/1003.png" width="100%" title="광목에 수묵"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9D%BC%EB%B3%B8%EC%A2%85%EC%9D%B4%EC%97%90+%EC%9E%89%ED%81%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">일본종이에
-        잉크</a>
+        잉크<span><img src="minDALL-E_img/1004.png" width="100%" title="일본종이에 잉크"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4%EC%97%90+%EC%A0%84%EC%82%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스에
-        전사</a>
+        전사<span><img src="minDALL-E_img/1005.png" width="100%" title="캔버스에 전사"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%9C%EC%A7%80%EC%97%90+%EC%88%98%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">한지에
-        수채</a>
+        수채<span><img src="minDALL-E_img/1006.png" width="100%" title="한지에 수채"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8F%B4%EB%A6%AC%EC%97%90%EC%8A%A4%ED%84%B0+%EB%B2%A0%EC%9D%B4%EC%8A%A4+%EC%B4%88+%EA%B4%91%ED%83%9D+%EC%BB%AC%EB%9F%AC%EC%82%AC%EC%A7%84+%EC%9C%A0%EC%A0%9C%EB%A9%B4+%EC%9C%84%EC%97%90+%EB%82%98%EC%9D%B4%ED%95%91&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">폴리에스터
-        베이스 초 광택 컬러사진 유제면 위에 나이핑</a>
+        베이스 초 광택 컬러사진 유제면 위에 나이핑<span><img src="minDALL-E_img/1007.png" width="100%" title="폴리에스터 베이스 초 광택 컬러사진 유제면 위에 나이핑"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B0%9C%ED%8F%AC+%EC%9A%B0%EB%A0%88%ED%83%84+%ED%8F%BC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">발포
-        우레탄 폼</a>
+        우레탄 폼<span><img src="minDALL-E_img/1008.png" width="100%" title="발포 우레탄 폼"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B0%80%EB%A3%A8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">가루</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B0%80%EB%A3%A8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">가루
+      <span><img src="minDALL-E_img/1009.png" width="100%" title="가루"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%98%B8%EB%91%90%EB%82%98%EB%AC%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">호두나무</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%98%B8%EB%91%90%EB%82%98%EB%AC%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">호두나무
+      <span><img src="minDALL-E_img/1010.png" width="100%" title="호두나무"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4+%ED%99%98%EC%A1%B0+%282%EC%A1%B0%EA%B0%81&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무
-        환조 (2조각</a>
+        환조 (2조각<span><img src="minDALL-E_img/1011.png" width="100%" title="나무 환조 (2조각"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4%EC%97%90+%EC%88%AF&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스에
-        숯</a>
+        숯<span><img src="minDALL-E_img/1012.png" width="100%" title="캔버스에 숯"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%A9%EC%84%B1%EC%88%98%EC%A7%80%28%ED%8F%B4%EB%A6%AC%EC%97%90%EC%8A%A4%ED%85%8C%EB%A5%B4%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">합성수지(폴리에스테르)</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%A9%EC%84%B1%EC%88%98%EC%A7%80%28%ED%8F%B4%EB%A6%AC%EC%97%90%EC%8A%A4%ED%85%8C%EB%A5%B4%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">합성수지(폴리에스테르)
+      <span><img src="minDALL-E_img/1013.png" width="100%" title="합성수지(폴리에스테르)"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A6%AC%EB%B3%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">리본</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A6%AC%EB%B3%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">리본
+      <span><img src="minDALL-E_img/1014.png" width="100%" title="리본"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%98%A4%EC%9D%BC%EC%8A%A4%ED%85%8C%EC%9D%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">오일스테인</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%98%A4%EC%9D%BC%EC%8A%A4%ED%85%8C%EC%9D%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">오일스테인
+      <span><img src="minDALL-E_img/1015.png" width="100%" title="오일스테인"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9C%84%EC%B9%98%EC%9D%B8%EC%8B%9D+%ED%97%A4%EB%93%9C%ED%8F%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">위치인식
-        헤드폰</a>
+        헤드폰<span><img src="minDALL-E_img/1016.png" width="100%" title="위치인식 헤드폰"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%B8%EC%9D%B4%ED%85%8D&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">싸이텍</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%B8%EC%9D%B4%ED%85%8D&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">싸이텍
+      <span><img src="minDALL-E_img/1017.png" width="100%" title="싸이텍"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%9D%91%EC%9C%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">흑유</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%9D%91%EC%9C%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">흑유
+      <span><img src="minDALL-E_img/1018.png" width="100%" title="흑유"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AC%B4%EC%9D%8C%EA%B3%BC+%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%98%A4+%EC%82%AC%EC%9A%B4%EB%93%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">무음과
-        스트레오 사운드</a>
+        스트레오 사운드<span><img src="minDALL-E_img/1019.png" width="100%" title="무음과 스트레오 사운드"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9F%81%EB%B0%98&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">쟁반</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9F%81%EB%B0%98&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">쟁반
+      <span><img src="minDALL-E_img/1020.png" width="100%" title="쟁반"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%EA%B1%B0%EC%B9%98%EB%8C%80&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무거치대</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%EA%B1%B0%EC%B9%98%EB%8C%80&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무거치대
+      <span><img src="minDALL-E_img/1021.png" width="100%" title="나무거치대"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%88%98%EC%A7%91%EB%90%9C+%EC%98%A4%EB%B8%8C%EC%A0%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">수집된
-        오브제</a>
+        오브제<span><img src="minDALL-E_img/1022.png" width="100%" title="수집된 오브제"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%EC%97%90+%ED%9D%99&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무에
-        흙</a>
+        흙<span><img src="minDALL-E_img/1023.png" width="100%" title="나무에 흙"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8C%A8%EB%84%90%EC%97%90+%EC%9E%89%ED%81%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">패널에
-        잉크</a>
+        잉크<span><img src="minDALL-E_img/1024.png" width="100%" title="패널에 잉크"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%82%AC%EC%9A%B4%EB%93%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">사운드</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%82%AC%EC%9A%B4%EB%93%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">사운드
+      <span><img src="minDALL-E_img/1025.png" width="100%" title="사운드"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8C%A8%EB%84%90&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">패널</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8C%A8%EB%84%90&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">패널
+      <span><img src="minDALL-E_img/1026.png" width="100%" title="패널"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%95%8C%EB%A3%A8%EB%AF%B8%EB%8A%84%EC%97%90+%ED%95%A9%EC%84%B1%EC%88%98%EC%A7%80%28%ED%8F%B4%EB%A6%AC%EC%9A%B0%EB%A0%88%ED%83%84%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">알루미늄에
-        합성수지(폴리우레탄)</a>
+        합성수지(폴리우레탄)<span><img src="minDALL-E_img/1027.png" width="100%" title="알루미늄에 합성수지(폴리우레탄)"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A2%85%EC%9D%B4%EC%97%90+%EC%88%98%EB%AC%B5%EC%B1%84%EC%83%89&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">종이에
-        수묵채색</a>
+        수묵채색<span><img src="minDALL-E_img/1028.png" width="100%" title="종이에 수묵채색"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%9D%EB%AC%BC%28%EC%82%AC%EC%9D%B4%EC%9E%98%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">식물(사이잘)</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%9D%EB%AC%BC%28%EC%82%AC%EC%9D%B4%EC%9E%98%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">식물(사이잘)
+      <span><img src="minDALL-E_img/1029.png" width="100%" title="식물(사이잘)"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B8%88%EC%82%AC+%EC%9E%90%EC%88%98&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">금사
-        자수</a>
+        자수<span><img src="minDALL-E_img/1030.png" width="100%" title="금사 자수"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4+%ED%95%A9%ED%8C%90&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무
-        합판</a>
+        합판<span><img src="minDALL-E_img/1031.png" width="100%" title="나무 합판"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4+%EC%9D%98%EC%9E%90&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무
-        의자</a>
+        의자<span><img src="minDALL-E_img/1032.png" width="100%" title="나무 의자"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9E%A5%EB%AF%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">장미</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9E%A5%EB%AF%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">장미
+      <span><img src="minDALL-E_img/1033.png" width="100%" title="장미"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%88%98%EC%A7%80%EC%A0%90%ED%86%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">수지점토</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%88%98%EC%A7%80%EC%A0%90%ED%86%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">수지점토
+      <span><img src="minDALL-E_img/1034.png" width="100%" title="수지점토"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A0%84%ED%99%94%EA%B8%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">전화기</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A0%84%ED%99%94%EA%B8%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">전화기
+      <span><img src="minDALL-E_img/1035.png" width="100%" title="전화기"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%85%8D%EC%8A%A4%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">텍스트</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%85%8D%EC%8A%A4%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">텍스트
+      <span><img src="minDALL-E_img/1036.png" width="100%" title="텍스트"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%8F%84%EB%A7%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">도마</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%8F%84%EB%A7%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">도마
+      <span><img src="minDALL-E_img/1037.png" width="100%" title="도마"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8A%A4%ED%85%8C%EC%9D%B8%EB%A6%AC%EC%8A%A4%EC%8A%A4%ED%8B%B8%EC%97%90+%EC%BA%94%EB%94%94+%ED%8E%98%EC%9D%B8%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">스테인리스스틸에
-        캔디 페인트</a>
+        캔디 페인트<span><img src="minDALL-E_img/1038.png" width="100%" title="스테인리스스틸에 캔디 페인트"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9E%A5%EC%A7%80%EC%97%90+%EB%B6%84%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">장지에
-        분채</a>
+        분채<span><img src="minDALL-E_img/1039.png" width="100%" title="장지에 분채"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A6%AC%ED%94%84%EB%A1%9C%EB%8D%95%EC%85%98&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">리프로덕션</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A6%AC%ED%94%84%EB%A1%9C%EB%8D%95%EC%85%98&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">리프로덕션
+      <span><img src="minDALL-E_img/1040.png" width="100%" title="리프로덕션"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%97%88%EB%B8%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">허브</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%97%88%EB%B8%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">허브
+      <span><img src="minDALL-E_img/1041.png" width="100%" title="허브"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%A9%ED%8C%90%ED%99%94&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">목판화</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%A9%ED%8C%90%ED%99%94&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">목판화
+      <span><img src="minDALL-E_img/1042.png" width="100%" title="목판화"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9D%B4%EB%B6%88%EB%B3%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">이불보</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9D%B4%EB%B6%88%EB%B3%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">이불보
+      <span><img src="minDALL-E_img/1043.png" width="100%" title="이불보"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=0.5mm+%EC%B9%BC%EB%9D%BC%ED%8E%9C%EC%8A%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">0.5mm
-        칼라펜슬</a>
+        칼라펜슬<span><img src="minDALL-E_img/1044.png" width="100%" title="0.5mm 칼라펜슬"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B9%83%EB%B0%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">깃발</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B9%83%EB%B0%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">깃발
+      <span><img src="minDALL-E_img/1045.png" width="100%" title="깃발"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4%EC%97%90+%EC%BD%A9%ED%85%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스에
-        콩테</a>
+        콩테<span><img src="minDALL-E_img/1046.png" width="100%" title="캔버스에 콩테"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%ED%8C%A8%EB%84%90%EC%97%90+%ED%98%BC%ED%95%A9%EB%A7%A4%EC%B2%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무패널에
-        혼합매체</a>
+        혼합매체<span><img src="minDALL-E_img/1047.png" width="100%" title="나무패널에 혼합매체"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%99%94%EC%84%A0%EC%A7%80%EC%97%90+%EC%88%98%EB%AC%B5%EB%8B%B4%EC%B1%84%2F%EB%AA%B0%EA%B3%A8%EB%B2%95&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">화선지에
-        수묵담채/몰골법</a>
+        수묵담채/몰골법<span><img src="minDALL-E_img/1048.png" width="100%" title="화선지에 수묵담채 몰골법"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%94%94%EC%A7%80%ED%84%B8+C-print&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">디지털
-        C-print</a>
+        C-print<span><img src="minDALL-E_img/1049.png" width="100%" title="디지털 C-print"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A7%80%EC%9A%B0%EA%B0%9C%EA%B0%80%EB%A3%A8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">지우개가루</a>
-      <a class="popup" href="">mixed media on stainless mirror & steel</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A7%80%EC%9A%B0%EA%B0%9C%EA%B0%80%EB%A3%A8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">지우개가루
+      <span><img src="minDALL-E_img/1050.png" width="100%" title="지우개가루"></span></a>
+      <a class="popup" href="">mixed media on stainless mirror & steel<span><img src="minDALL-E_img/1051.png" width="100%" title="mixed media on stainless mirror & steel"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8A%A4%ED%81%AC%EB%A6%B0%ED%94%84%EB%A6%B0%ED%8C%85&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">스크린프린팅</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8A%A4%ED%81%AC%EB%A6%B0%ED%94%84%EB%A6%B0%ED%8C%85&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">스크린프린팅
+      <span><img src="minDALL-E_img/1052.png" width="100%" title="스크린프린팅"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4%EC%97%90+%ED%98%BC%ED%95%A9%EC%95%88%EB%A3%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스에
-        혼합안료</a>
+        혼합안료<span><img src="minDALL-E_img/1053.png" width="100%" title="캔버스에 혼합안료"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%BA%94%EB%B2%84%EC%8A%A4%EC%97%90+%EC%99%80%EC%9D%B4%EC%96%B4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">캔버스에
-        와이어</a>
+        와이어<span><img src="minDALL-E_img/1054.png" width="100%" title="캔버스에 와이어"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%82%B5+%EC%BC%80%EC%9D%B4%EC%8A%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">킵
-        케이스</a>
+        케이스<span><img src="minDALL-E_img/1055.png" width="100%" title="킵 케이스"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%A0%EB%AC%B8%EC%A7%80+%EC%BD%9C%EB%9D%BC%EC%A3%BC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">신문지
-        콜라주</a>
+        콜라주<span><img src="minDALL-E_img/1056.png" width="100%" title="신문지 콜라주"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%9C%EC%A7%80%EC%97%90+%EC%88%98%EB%AC%B5%EC%B1%84%EC%83%89&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">한지에
-        수묵채색</a>
+        수묵채색<span><img src="minDALL-E_img/1057.png" width="100%" title="한지에 수묵채색"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%AD%EC%9E%90%ED%86%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">청자토</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%AD%EC%9E%90%ED%86%A0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">청자토
+      <span><img src="minDALL-E_img/1058.png" width="100%" title="청자토"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A7%88%EB%84%A4%ED%82%B9&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">마네킹</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A7%88%EB%84%A4%ED%82%B9&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">마네킹
+      <span><img src="minDALL-E_img/1059.png" width="100%" title="마네킹"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%98%A4%EC%9D%BC+%ED%8C%8C%EC%8A%A4%ED%85%94&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">오일
-        파스텔</a>
+        파스텔<span><img src="minDALL-E_img/1060.png" width="100%" title="오일 파스텔"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A7%84%EC%A3%BC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">진주</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A7%84%EC%A3%BC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">진주
+      <span><img src="minDALL-E_img/1061.png" width="100%" title="진주"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8A%A4%ED%85%8C%EC%9D%B8%EB%A6%AC%EC%8A%A4+%EC%8A%A4%ED%8B%B8%EC%97%90+%EC%9A%B0%EB%A0%88%ED%83%84+%EB%8F%84%EC%9E%A5&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">스테인리스
-        스틸에 우레탄 도장</a>
+        스틸에 우레탄 도장<span><img src="minDALL-E_img/1062.png" width="100%" title="스테인리스 스틸에 우레탄 도장"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%EC%97%90+%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%83%88&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무에
-        크리스탈</a>
+        크리스탈<span><img src="minDALL-E_img/1063.png" width="100%" title="나무에 크리스탈"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%97%8C%EC%98%B7&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">헌옷</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%97%8C%EC%98%B7&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">헌옷
+      <span><img src="minDALL-E_img/1064.png" width="100%" title="헌옷"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%B9%84%EB%8B%A8%EC%97%90+%EB%A8%B9&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">비단에
-        먹</a>
+        먹<span><img src="minDALL-E_img/1065.png" width="100%" title="비단에 먹"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%84%9D%ED%83%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">석탄</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%84%9D%ED%83%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">석탄
+      <span><img src="minDALL-E_img/1066.png" width="100%" title="석탄"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B1%84%EC%83%89&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">채색</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B1%84%EC%83%89&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">채색
+      <span><img src="minDALL-E_img/1067.png" width="100%" title="채색"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%8F%84%EC%9E%90%EA%B8%B0%2F%ED%8C%90%EC%9E%91%EC%97%85&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">도자기/판작업</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%8F%84%EC%9E%90%EA%B8%B0%2F%ED%8C%90%EC%9E%91%EC%97%85&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">도자기/판작업
+      <span><img src="minDALL-E_img/1068.png" width="100%" title="도자기/판작업"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%A0%EB%AC%B8%EC%A0%9C%ED%98%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">신문제호</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%8B%A0%EB%AC%B8%EC%A0%9C%ED%98%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">신문제호
+      <span><img src="minDALL-E_img/1069.png" width="100%" title="신문제호"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%9A%B0%EB%A0%88%ED%83%84%ED%8E%98%EC%9D%B8%ED%8A%B8+%EB%93%B1%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">우레탄페인트
-        등)</a>
+        등)<span><img src="minDALL-E_img/1070.png" width="100%" title="우레탄페인트 등)"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=6%EC%B1%84%EB%84%90+%EB%B9%84%EB%94%94%EC%98%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">6채널
-        비디오</a>
+        비디오<span><img src="minDALL-E_img/1071.png" width="100%" title="6채널 비디오"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%8C%A8%EB%84%90%EC%97%90+%EC%A2%85%EC%9D%B4%EB%B6%80%EC%A1%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">패널에
-        종이부조</a>
+        종이부조<span><img src="minDALL-E_img/1072.png" width="100%" title="패널에 종이부조"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%84%A0%ED%92%8D%EA%B8%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">선풍기</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%84%A0%ED%92%8D%EA%B8%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">선풍기
+      <span><img src="minDALL-E_img/1073.png" width="100%" title="선풍기"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B8%88%EC%86%8D+%EC%9D%B4%EC%9D%8C+%EC%9E%A5%EC%B9%98&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">금속
-        이음 장치</a>
+        이음 장치<span><img src="minDALL-E_img/1074.png" width="100%" title="금속 이음 장치"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%EB%B0%95%EC%8A%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무박스</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%82%98%EB%AC%B4%EB%B0%95%EC%8A%A4&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">나무박스
+      <span><img src="minDALL-E_img/1075.png" width="100%" title="나무박스"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=etching&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">etching</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=etching&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">etching
+      <span><img src="minDALL-E_img/1076.png" width="100%" title="etching"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EA%B8%B0%EC%97%85%EB%A1%9C%EA%B3%A0+%EC%BD%9C%EB%9D%BC%EC%A3%BC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">기업로고
-        콜라주</a>
+        콜라주<span><img src="minDALL-E_img/1077.png" width="100%" title="기업로고 콜라주"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%8F%84%EC%9E%90%28%EC%82%BC%EA%B0%81%ED%98%95%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">도자(삼각형)</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%8F%84%EC%9E%90%28%EC%82%BC%EA%B0%81%ED%98%95%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">도자(삼각형)
+      <span><img src="minDALL-E_img/1078.png" width="100%" title="도자(삼각형)"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%9C%EC%A7%80%EC%97%90+%EC%B2%9C%EC%97%B0+%EC%97%BC%EC%83%89%28%EC%98%A4%EB%B0%B0%EC%9E%90%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">한지에
-        천연 염색(오배자)</a>
+        천연 염색(오배자)<span><img src="minDALL-E_img/1079.png" width="100%" title="한지에 천연 염색(오배자)"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%BD%ED%83%80%EC%A5%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">몽타쥬</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%BD%ED%83%80%EC%A5%AC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">몽타쥬
+      <span><img src="minDALL-E_img/1080.png" width="100%" title="몽타쥬"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%A8%ED%98%95%EC%9E%AC%EB%A3%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">모형재료</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%A8%ED%98%95%EC%9E%AC%EB%A3%8C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">모형재료
+      <span><img src="minDALL-E_img/1081.png" width="100%" title="모형재료"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%9C%EC%A7%80%EC%97%90+%EC%88%98%EB%AC%B5%EB%8B%B4%EC%B1%84%2F%EB%AA%B0%EA%B3%A8%EB%B2%95&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">한지에
-        수묵담채/몰골법</a>
+        수묵담채/몰골법<span><img src="minDALL-E_img/1082.png" width="100%" title="한지에 수묵담채/몰골법"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%98%BC%ED%95%A9%EB%A7%A4%EC%B2%B4%3A+%EC%B4%9D+280%EA%B0%9C%EC%9D%98+%EC%84%9C%EB%9E%8D+6%EA%B6%A4%EC%A7%9D&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">혼합매체:
-        총 280개의 서랍 6궤짝</a>
+        총 280개의 서랍 6궤짝<span><img src="minDALL-E_img/1083.png" width="100%" title="혼합매체- 총 280개의 서랍 6궤짝"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%8B%A8%EC%B1%84%EB%84%90+%EB%B9%84%EB%94%94%EC%98%A4%28HD%29&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">단채널
-        비디오(HD)</a>
+        비디오(HD)<span><img src="minDALL-E_img/1084.png" width="100%" title="단채널 비디오(HD)"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%88%98%EB%AC%B5%EB%8B%B4%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">수묵담채</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%88%98%EB%AC%B5%EB%8B%B4%EC%B1%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">수묵담채
+      <span><img src="minDALL-E_img/1085.png" width="100%" title="수묵담채"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%83%81%EA%B5%AC%EB%8C%80&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">탁구대</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%83%81%EA%B5%AC%EB%8C%80&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">탁구대
+      <span><img src="minDALL-E_img/1086.png" width="100%" title="탁구대"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%98%A4%EC%9D%BC%EB%B0%94&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">오일바</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%98%A4%EC%9D%BC%EB%B0%94&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">오일바
+      <span><img src="minDALL-E_img/1087.png" width="100%" title="오일바"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=C-%ED%94%84%EB%A6%B0%ED%8A%B8%EC%97%90+%EC%B1%84%EC%83%89&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">C-프린트에
-        채색</a>
+        채색<span><img src="minDALL-E_img/1088.png" width="100%" title="C-프린트에 채색"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%82%AC%EC%A7%84+%EC%BD%9C%EB%9D%BC%EC%A3%BC%EC%97%90+%EB%B0%94%EB%8B%88%EC%8B%9C&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">사진
-        콜라주에 바니시</a>
+        콜라주에 바니시<span><img src="minDALL-E_img/1089.png" width="100%" title="사진 콜라주에 바니시"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%82%AC%EC%9A%B4%EB%93%9C%29%2F+%ED%9C%B4%EB%8C%80%ED%8F%B0&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">사운드)/
-        휴대폰</a>
+        휴대폰<span><img src="minDALL-E_img/1090.png" width="100%" title="사운드) 휴대폰"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%A0%EC%97%90+%EC%9A%B0%EB%A0%88%ED%83%84+%EB%8F%84%EC%83%89&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">철에
-        우레탄 도색</a>
+        우레탄 도색<span><img src="minDALL-E_img/1091.png" width="100%" title="철에 우레탄 도색"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%A8%EB%9E%98&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">모래</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%AA%A8%EB%9E%98&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">모래
+      <span><img src="minDALL-E_img/1092.png" width="100%" title="모래"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%A0%EC%A3%BC%EB%AC%BC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">철주물</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%B2%A0%EC%A3%BC%EB%AC%BC&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">철주물
+      <span><img src="minDALL-E_img/1093.png" width="100%" title="철주물"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%A0%A4%EB%9D%BC%ED%8B%B4+%EC%8B%A4%EB%B2%84+%ED%94%84%EB%A6%B0%ED%8A%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">젤라틴
-        실버 프린트</a>
+        실버 프린트<span><img src="minDALL-E_img/1094.png" width="100%" title="젤라틴 실버 프린트"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">플라스틱</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">플라스틱
+      <span><img src="minDALL-E_img/1095.png" width="100%" title="플라스틱"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=Intaglio&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">Intaglio</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=Intaglio&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">Intaglio
+      <span><img src="minDALL-E_img/1096.png" width="100%" title="Intaglio"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%84%EB%A6%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">필름</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%ED%95%84%EB%A6%84&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">필름
+      <span><img src="minDALL-E_img/1097.png" width="100%" title="필름"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%84%AC%EC%9C%A0%EC%9C%A0%EB%A6%AC%29%EC%9D%98+%EB%B6%80%EC%B2%98%EC%83%81%EC%97%90+%EC%8B%9C%ED%80%B8&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">섬유유리)의
-        부처상에 시퀸</a>
+        부처상에 시퀸<span><img src="minDALL-E_img/1098.png" width="100%" title="섬유유리)의 부처상에 시퀸"></span></a>
       <a class="popup"
-        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A7%88%EB%B8%94%EC%8A%A4%ED%8E%80%EC%A7%80&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">마블스펀지</a>
+        href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EB%A7%88%EB%B8%94%EC%8A%A4%ED%8E%80%EC%A7%80&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">마블스펀지
+      <span><img src="minDALL-E_img/1099.png" width="100%" title="마블스펀지"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=%EC%84%BC%EC%84%9C+%EC%9E%A5%EC%B9%98&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">센서
-        장치</a>
+        장치<span><img src="minDALL-E_img/1100.png" width="100%" title="센서 장치"></span></a>
       <a class="popup"
         href="https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=1&kwd=KWNAME&soOrd=&soHighlight=&kwdValue=&wriName=&artKname=&artTechnique=Green+and+black+granite&artCode1=&artSYear=&artEYear=&collSYear=&collEYear=&artDonation=&exhDate=">Green
         and black granite</a>
@@ -4634,32 +4750,47 @@
   </div>
 
   <script>
-// Get the modal
-var modal = document.getElementById("myModal");
+    // Get the modal
+    var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-// var btn = document.getElementById("myBtn");
+    // Get the button that opens the modal
+    // var btn = document.getElementById("myBtn");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal
-// btn.onclick = function() {
-// modal.style.display = "block";
-// }
+    // When the user clicks the button, open the modal
+    // btn.onclick = function() {
+    // modal.style.display = "block";
+    // }
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+        }
+      }
+
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
 
 
 </body>

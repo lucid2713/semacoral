@@ -180,6 +180,50 @@ body{
   /* text-align: center; */
 }
 
+.collapsible {
+  /* background-color: #eee; */
+  background-color: #FAF0E6;
+  /* color: #444; */
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  text-align: left;
+  outline: none;
+  font-size: 1.6rem;
+  line-height:2.4rem;
+  font-weight: bold;
+  font-family: 'Nanum Gothic Coding', monospace;
+  margin-bottom: 20px;
+}
+.active, .collapsible:hover {
+  background-color: #3CB371;
+  /* color: #FAF0E6; */
+}
+.content {
+  margin: 10px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #FAF0E6;
+  /* background-color: #f1f1f1; */
+  border: 1px solid #3CB371;
+  border-radius: 30px;
+  /* line-height: 2.3rem; */
+}
+.content a{
+  color: #000000;
+  text-decoration: underline;
+}
+.content a:hover{
+  color: #3CB371;
+}
+.content p{
+
+
+}
+
 .conRight h3{
   /* color: #D3D3D3; */
   color: #000000;
