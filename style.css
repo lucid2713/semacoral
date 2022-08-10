@@ -48,30 +48,56 @@ body{
 }
 .modal-content{
   /* background-color: #FFE4E1; */
-  background-color: #FFA07A;
-  margin: 10% auto;
-  padding:40px;
-  border: 15px solid #000000;
-  border-radius: 30px;
-  width: 80%;
-  /* color: #2F4F4F; */
+  /* background-color: #FFA07A; */
+  margin: auto;
+  padding: 0;
+  /* padding:40px; */
+  /* border: 15px solid #000000;
+  border-radius: 30px; */
+  /* width: 80%; */
   color: #000000;
-  font-size: 1.4rem;
-  line-height: 2.2rem;
+  /* font-size: 1.4rem;
+  line-height: 2.2rem; */
   text-align: center;
+  overflow: hidden;
+  position: relative;
 }
-#front-main{
+.front-main{
+  /* width: 50vw; */
+  width: 90vw;
   font-weight: bold;
-  font-size: 1.8rem;
-  line-height: 2.8rem;
-  /* background-color: #ffffff; */
-  /* color: #FFE4E1; */
-  /* color: #FFA07A; */
-  padding: 10px;
-  /* margin:  auto; */
-  border: 1px solid #000000;
-  border-radius: 30px;
+  font-size: 7rem;
+  line-height: 8rem;
+  /* background-color: #FFA07A; */
+  padding: 0;
+  margin: 5% auto;
+  /* border: 1px solid #000000;
+  border-radius: 30px; */
+  border: none;
+  /* animation-name: rightToleft;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; */
+  color: #000000;
+  -webkit-text-fill-color: #FFA07A; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #000000;
 }
+
+@-webkit-keyframes rightToleft {
+  /* 0% {margin-top:0%;}
+  50% {margin-top: 25%;}
+  100% {margin-top: 0%;} */
+  /* 0% {margin-top:0%; margin-left: 0%;}
+  25% {margin-top: 0%; margin-left: 50%;}
+  50% {margin-top: 25%; margin-left: 50%;}
+  75% {margin-top: 25%; margin-left: 0%;}
+  100% {margin-top: 0%; margin-left: 0%;} */
+  /* 0% {margin-left: 100%;} */
+  /* 50% {margin-left: 50%;} */
+  /* 100% {margin-left: -100%;} */
+}
+
 #front-text{
   border: 1px solid #000000;
   border-radius: 30px;
@@ -79,11 +105,16 @@ body{
   text-align: justify;
 }
 .close{
-  color: #aaa;
-  /* color: #ffffff; */
-  float: right;
-  font-size: 30px;
+  /* color: #aaa; */
+  color: #FFA07A;
+  top: 0;
+  right: 0;
+  /* float: right; */
+  font-size: 5rem;
   font-weight: bold;
+  padding: 20px;
+  position: absolute;
+  z-index: 6;
 }
 .close:hover, .close:focus{
   color: #000000;
