@@ -18,7 +18,7 @@
     <div class="modal-content">
       <span class="close">&#x2715;</span>
       <p class="front-main">
-        디지털 사회에서 지워지고 잊혀지는 정보들이 새로운 가치를 가질 수 있지 않을까? <br><br>
+        디지털 사회에서 지워지고 잊혀지는 정보들이 새로운 가치를 가질 수 있지 않을까?<br>
         <재:료 기:법> 은 서울시립미술관의 재료/기법 데이터에 새로 고유한 정체성을 부여하여 재료/기법 정보가 그 자체로 예술 작업이 될 가능성을 보여주는 웹 아카이브이다.
       </p>
       <!-- <p id="front-text">
@@ -5029,6 +5029,17 @@
           }
         });
       }
+
+
+// animation
+jQuery(document).ready(function(){
+   $('front-main').mousemove(function(e){
+     var rXP = (e.pageX - this.offsetLeft-$(this).width()/2);
+     var rYP = (e.pageY - this.offsetTop-$(this).height()/2);
+     $('front-main').css('text-shadow', +rYP/10+'px '+rXP/80+'px rgba(227,6,19,.8), '+rYP/8+'px '+rXP/60+'px rgba(255,237,0,1), '+rXP/70+'px '+rYP/12+'px rgba(0,159,227,.7)');
+   });
+});
+
     </script>
 
 
