@@ -360,6 +360,9 @@ body{
     margin: 0 auto;
     padding: 10px;
   }
+  .textbox h3{
+    line-height: 2.4rem;
+  }
 
 
 }
